@@ -1,0 +1,62 @@
+a {
+    font-family: arial, sans-serif;
+    color: black;
+}
+body {
+    font-family: arial, sans-serif;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.collapsible {
+  margin-left: -10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  padding: 5px 18px 5px 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: 700;
+  font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+}
+
+.collapsible:hover {
+  background-color: #d8d8d8;
+}
+
+.collapsible:after {
+  content: '\002B';
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content-collapse {
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.clps3 {
+    font-family: arial, sans-serif;
+    color: black;
+}
+
+.little-link {
+  font: 400 13.3333px Arial;
+}
