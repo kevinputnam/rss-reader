@@ -4,6 +4,11 @@ Python RSS reader
 Quick and dirty rss aggregator to html file with collapsible sections.
 
 .. figure:: rss-reader.png
+   :scale: 66%
+   :align: center
+   :alt: Demo image of the aggregator
+
+   Figure 1: How it looks with the 1st More section expanded
 
 * uses feedparser to parse rss files: https://github.com/kurtmckee/feedparser
 * prints out summary of first 3 results
