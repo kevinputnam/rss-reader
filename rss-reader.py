@@ -29,6 +29,8 @@ newLines = [htmlHeader]
 
 for feed in feeds:
     counter = 0
+    if "title" not in feed["channel"]:
+        break
     newLines.append("  <h3>" + feed["channel"]["title"] + "</h3>\n")
     for item in feed["items"]:
         if counter == maxNumItems:
